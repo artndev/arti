@@ -172,7 +172,10 @@ hr {
   background: var(--p1);
 }
 
-.card .card::before {
+.card .card::before,
+.card .nightMode .card::before,
+.mobile .card .card::before,
+.mobile .card .nightMode .card::before {
   content: '';
   display: block;
   position: absolute;
