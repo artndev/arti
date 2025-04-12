@@ -173,9 +173,9 @@ hr {
 }
 
 .card .card::before,
-.card .nightMode .card::before,
+.card.nightMode .card.nightMode::before,
 .mobile .card .card::before,
-.mobile .card .nightMode .card::before {
+.mobile .card.nightMode .card.nightMode::before {
   content: '';
   display: block;
   position: absolute;
