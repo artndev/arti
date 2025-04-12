@@ -1,121 +1,185 @@
 @font-face {
-    font-family: Inter;
-    src: url("_inter.ttf");
-  }
-  
-  :root {
-  --1p: #10002b;
-  --2p: #240046;
-  --3p: #3c096c;
-  --4p: #5a189a;
-  --5p: #7b2cbf;
-  --6p: #9d4edd;
-  --7p: #c77dff;
-  --8p: #e0aaff;
-  }
-  
-  * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-size: 15px;
   font-family: Inter;
-  color: var(--6p);
-  line-height: 25px;
-  }
-  
-  .card__container {
-  display flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  }
-  
-  .card__subcontainer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100%;
-  padding: 20px;
-  }
-  
-  .card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 30px;
-  width: 100%;
-  height: max-content;
-  padding: 30px;
-  background: var(--1p);
-  z-index: 0;
-  }
-  
-  .card .card::before {
-  content: '';
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: url("_back-img.gif");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  opacity: .05;
-  z-index: -1;
-  }
-  
-  .card:has(.hidden) .card::before {
-  display: none;
-  }
-  
-  .card__instance {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 20px;
-  border: 1px solid var(--3p);
-  overflow: hidden;
-  width: min(500px, 100%);
-  position: relative;
-  }
-  
-  .card__group {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 5px;
-  width: 100%;
-  }
-  
-  .card :nth-child(2) {
-  gap: 10px;
-  }
-  
-  .card__title {
-  font-size: 19px;
-  }
-  
-  .card__title, .card__subtitle {
-  color: var(--5p);
-  }
-  
-  .card__footer {
-  color: var(--4p);
-  }
-  
-  .card__info, .card__main {
-  align-self: flex-start;
-  }
-  
-  .card hr {
-  width: 100%;
-  border: 1px solid var(--2p);
-  }
+  src: url("_inter.ttf");
+}
+
+:root {
+--p1: #10002b;
+--p2: #240046;
+--p3: #3c096c;
+--p4: #5a189a;
+--p5: #7b2cbf;
+--p6: #9d4edd;
+--p7: #c77dff;
+--p8: #e0aaff;
+--g1: #343a40;
+--g2: #68727b;
+
+--f-sm: 11px;
+--f-smx: 13px;
+--f-md: 15px;
+--f-mdx: 17px;
+--f-bg: 19px;
+--f-bgx: 21px;
+--f-hg: 23px;
+--f-hgx: 25px;
+
+--s-sm: 5px;
+--s-smx: 10px;
+--s-md: 15px;
+--s-mdx: 20px;
+--s-bg: 25px;
+--s-bgx: 30px;
+--s-hg: 50px;
+--s-hgx: 100px;
+}
+
+
+.p1 {
+color: var(--p1);
+}
+
+.p2 {
+color: var(--p2);
+}
+
+.p3 {
+color: var(--p3);
+}
+
+.p4 {
+color: var(--p4);
+}
+
+.p5 {
+color: var(--p5);
+}
+
+.p6 {
+color: var(--p6);
+}
+
+.p7 {
+color: var(--p7);
+}
+
+.p8 {
+color: var(--p8);
+}
+
+.g1 {
+color: var(--g1);
+}
+
+.g2 {
+color: var(--g2);
+}
+
+
+.f-sm {
+  font-size: var(--f-sm);
+}
+
+.f-smx {
+  font-size: var(--f-smx);
+}
+
+.f-md {
+  font-size: var(--f-md);
+}
+
+.f-mdx {
+  font-size: var(--f-mdx);
+}
+
+.f-bg {
+  font-size: var(--f-bg);
+}
+
+.f-bgx {
+  font-size: var(--f-bgx);
+}
+
+.f-hg {
+  font-size: var(--f-hg);
+}
+
+.f-hgx {
+  font-size: var(--f-hgx);
+}
+
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Inter;
+line-height: 25px;
+}
+
+div {
+font-size: inherit;
+color: inherit;
+}
+
+hr {
+width: 30%;
+border: 1px solid var(--p8);
+opacity: .2;
+}
+
+.card__container {
+display flex;
+justify-content: center;
+align-items: center;
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
+.card__subcontainer {
+display: flex;
+justify-content: center;
+align-items: center;
+width: inherit;
+height: inherit;
+padding: 20px;
+}
+
+.card__wrapper {
+display: flex;
+width: min(500px, 100%);
+border: 1px solid var(--p3);
+border-radius: 20px;
+overflow: hidden;
+position: relative;
+}
+
+.card {
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 20px;
+width: 100%;
+text-align: center;
+padding: 30px;
+z-index: 0;
+background: var(--p1);
+}
+
+.card .card::before {
+content: '';
+display: block;
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+opacity: .08;
+z-index: -1;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
