@@ -1,8 +1,7 @@
-{{Back}}
 <style>
-.card .card::before {
-background-image: url("_back-img.gif");
-}
+    .card .card::before {
+        background-image: url({{back_image}});
+    }
 </style>
 
 
@@ -14,24 +13,24 @@ background-image: url("_back-img.gif");
             <div class="card__wrapper">
                 <div class="card">
                     <div>
-                        すいません
+                        {{word}}
                         <p class="f-md g2">
-                            [sumimasen]
+                            {{transcription}}
                         </p>
                         <div style="transform: rotate(90deg);">
                             ->
                         </div>
                         <p class="f-md">
-                            Excuse me
+                            {{word_translation}}
                         </p>
                     </div>
                     <hr />
                     <div>
                         <p class="p6">
-                            すいません、これいくらですか？
+                            {{sentence}}
                         </p>
                         <p class="f-md">
-                            Excuse me, how much is this?
+                            {{sentence_translation}}
                         </p>
                     </div>
                 </div>

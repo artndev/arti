@@ -1,8 +1,7 @@
-{{Front}}
 <style>
-.card .card::before {
-background-image: url("_front-img.gif");
-}
+    .card .card::before {
+        background-image: url({{front_image}});
+    }
 </style>
 
 
@@ -14,14 +13,14 @@ background-image: url("_front-img.gif");
             <div class="card__wrapper">
                 <div class="card">
                     <div>
-                        すいません
+                        {{word}}
                         <p class="f-md g2">
-                            [sumimasen]
+                            {{transcription}}
                         </p>
                     </div>
                     <hr />
                     <div>
-                        すいません、これいくらですか？
+                        {{sentence}}
                     </div>
                 </div>
             </div>
