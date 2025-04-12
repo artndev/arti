@@ -14,6 +14,7 @@
   --p8: #e0aaff;
   --g1: #343a40;
   --g2: #68727b;
+  --blue: #070C3A;
 
   --f-sm: 11px;
   --f-smx: 13px;
@@ -123,9 +124,9 @@ div {
 }
 
 hr {
-  width: 30%;
-  border: 1px solid var(--p8);
-  opacity: .2;
+  width: 40%;
+  border: 1px solid var(--g1);
+  opacity: .25;
 }
 
 .card__container {
@@ -151,7 +152,7 @@ hr {
 .card__wrapper {
   display: flex;
   width: min(500px, 100%);
-  border: 1px solid var(--p3);
+  border: 1px solid var(--blue);
   border-radius: 20px;
   overflow: hidden;
   position: relative;
@@ -169,7 +170,7 @@ hr {
   text-align: center;
   padding: 30px;
   z-index: 0;
-  background: var(--p1);
+  background: var(--blue);
 }
 
 .card .card::before,
