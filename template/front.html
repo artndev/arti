@@ -1,28 +1,27 @@
-<style>
-    .card ::before {
-        background-image: url({{front_image}});
-    }
-</style>
-
-
 <html>
 
 <body>
-    <div class="card__container f-mdx p7">
+    <div class="card__container">
         <div class="card__subcontainer">
-            <div class="card__wrapper">
-                <div class="card">
-                    <div>
-                        {{word}}
-                        <p class="f-md g2">
-                            {{transcription}}
-                        </p>
+            <div class="card">
+                <div class="card__header">
+                    <div class="card__header-button">
+                        {{audio}}
                     </div>
-                    <hr />
-                    <div>
-                        {{sentence}}
+                    <div class="card__header-image">
+                        {{image}}
                     </div>
                 </div>
+                <div class="card__body">
+                    <div class="card__body-item">
+                        <div id="title">
+                           {{word}}
+                        </div>
+                        <div id="subtitle">
+                           {{word_transcription}}
+                        </div>
+                    </div>
+                </div>       
             </div>
         </div>
     </div>
