@@ -1,10 +1,10 @@
-There you can find the minimalistic Base Anki template created using HTML / CSS to feel your studies more comfortable and easier (sometimes)!
+There you can find the minimalistic Basic Anki template created using HTML / CSS to feel your studies more comfortable and easier (sometimes)!
 
 ## Installation Guide
 
 \* If you want prettier background, you can install the Anki addon called [1210908941](https://ankiweb.net/shared/info/1210908941). It is used to change the background with a custom image.
 
-All you need to do is to move the _/media_ folder to the absolute path _%appdata%\\Anki2\\User 1\\collection.media_ (Win + R). After that you are ready to make the own Base Anki template using presets in the _/template_ and _/color_schemes_ folders. Otherwise, you can just import _test.apkg_ with _front.html_, _back.html_, _style.css_ set.
+All you need to do is to move the _/media_ folder to the absolute path _%appdata%\\Anki2\\User 1\\collection.media_ (Win + R). After that you are ready to make the own Basic Anki template using presets in the _/template_ and _/color_schemes_ folders. Otherwise, you can just import _test.apkg_ with _front.html_, _back.html_, _style.css_ set.
 
 P.S.: The _/color_schemes_ folder contains different themes with different color variables. Do you want to make another theme? Change _--color(0-4)__ variables then!
 
