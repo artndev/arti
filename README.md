@@ -1,14 +1,14 @@
 There you can find the minimalistic Anki template created using HTML / CSS to feel your studies more comfortable and easier (sometimes)!
 
-## Installation guide
+## Installation Guide
 
-\* If you want a prettier background, you can install the Anki addon called [1210908941](https://ankiweb.net/shared/info/1210908941). It is used to change the background with a custom image.
+\* If you want prettier background, you can install the Anki addon called [1210908941](https://ankiweb.net/shared/info/1210908941). It is used to change the background with a custom image.
 
-There are two options of installation scenario:
+We are going to start with moving the _/media_ folder to the absolute path _%appdata%\\Anki2\\User 1\\collection.media_ (Win + R). After that you are ready to make the own Anki template using presets in the _/template_ and _/color_schemes_ folders. Otherwise, you can just import _test.apkg_ with all _template files_ included.
 
-1. Move the _/media_ folder to the absolute path _%appdata%\\Anki2\\User 1\\collection.media_ (Win + R). After that you are free to make the own deck using presets in the _/template_ folder.
+**Don't forget to turn off auto-play in the deck settings!**
 
-2. Download the _test.apkg_ deck with a ready-to-go config included.
+<img src="./assets/auto-play.png" />
 
 ## Fields
 
