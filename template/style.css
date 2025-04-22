@@ -1,7 +1,8 @@
 /* CORE STYLES */
 :root {
 	/* DARK THEME */
-	--color0: #E0E1DD; /* FOR TITLES */
+	--color0: #E0E1DD;
+	/* FOR TITLES */
 	--color1: #0D1B2A;
 	--color2: #1B263B;
 	--color3: #415A77;
@@ -125,6 +126,7 @@ body {
 	border: 2px solid var(--color2);
 	border-top-right-radius: 20px;
 	border-bottom-right-radius: 20px;
+	overflow: hidden;
 	background: var(--color2);
 }
 
