@@ -1,9 +1,8 @@
 /* CORE STYLES */
 :root {
 	/* DARK THEME */
-	--color0: #E0E1DD;
-	/* FOR TITLES */
-	--color1: #0D1B2A;
+	--color0: #E0E1DD; /* FOR TITLES */
+	--color1: #0D1B2A; 
 	--color2: #1B263B;
 	--color3: #415A77;
 	--color4: #778DA9;
@@ -19,10 +18,11 @@
 	padding: 0;
 	box-sizing: border-box;
 	font-family: "Inter", sans-serif;
+	-webkit-tap-highlight-color: transparent;
 }
 
 body {
-	overflow: hidden;
+	overflow: hidden !important;
 }
 
 
@@ -43,9 +43,8 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	position: absolute;
 	width: 100%;
-	height: 100%;
+	height: 100vh;
 }
 
 .card__subcontainer {
@@ -91,38 +90,30 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: inherit;
-	height: inherit;
+	min-width: 100%;
+	min-height: 100%;
 	filter: brightness(0) saturate(100%) invert(57%) sepia(3%) saturate(2671%) hue-rotate(174deg) brightness(95%) contrast(92%);
 	outline: none;
-}
-
-.replay-button::before {
-	content: '';
-	display: block;
-	width: 50%;
-	height: 50%;
 	transition: .25s transform ease-in-out;
 	background-image: url("_replay-button.svg");
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: 50% 50%;
 }
 
-.replay-button:hover::before {
+.replay-button:hover {
 	transform: scale(1.1) rotate(-10deg);
 }
 
-.replay-button svg {
+.replay-button svg,
+.replay-button svg circle,
+.replay-button svg path {
 	display: none;
 }
 
 .card__header-image {
 	display: flex;
-	justify-content: center;
-	align-items: center;
 	flex: 1;
-	height: 100%;
 	border: 2px solid var(--color2);
 	border-top-right-radius: 20px;
 	border-bottom-right-radius: 20px;
@@ -131,8 +122,8 @@ body {
 }
 
 .card__header-image img {
-	width: 100%;
-	height: 100%;
+	min-height: 100%;
+	min-width: 100%;
 	object-fit: cover;
 	opacity: .25;
 }

@@ -16,16 +16,30 @@ P.S.: The _/color_schemes_ folder contains different themes with different color
 
 <img src="./assets/fields.png" />
 
-## Example
+## Examples
 
 ### Front
 
+#### PC
+
 <img src="./assets/front.png" />
+
+#### AnkiDroid
+
+<img src="./assets/mfront.jpg" />
 
 ### Back
 
+#### PC
+
 <img src="./assets/back.png" />
 
+#### AnkiDroid
+
+<img src="./assets/mback.jpg" />
+
 ### Back (On Replay-Button Hovering)
+
+#### PC
 
 <img src="./assets/hover.png" />
