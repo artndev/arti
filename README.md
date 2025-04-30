@@ -1,4 +1,4 @@
-There you can find the minimalistic Basic Anki template created using HTML / CSS to feel your studies more comfortable and easier (sometimes)!
+You can find there the minimalistic Basic Anki template created using HTML / CSS to feel your studies more comfortable and easier (sometimes)!
 
 ## Installation Guide
 
