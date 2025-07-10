@@ -11,7 +11,7 @@ Download [Anki](https://apps.ankiweb.net/) to apply Arti.
 > If you want to set a prettier background, you can install the Anki addon called [Custom Background Image and Gear Icon](https://ankiweb.net/shared/info/1210908941).
 
 ### Customize
-After those preparations, you are ready to make a Basic Anki template using presets in the _/template_ and _/color_schemes_ directories. Otherwise, just import _test.apkg_ with _front.html_, _back.html_, _style.css_ configured. Do not forget that the _/color_schemes_ directory contains different themes with different color variables. To make another theme, adjust _--color(0-4)_.
+After those preparations, you are ready to make a Basic Anki template using presets in the _/template_ and _/themes_ directories. Otherwise, just import _test.apkg_ with _front.html_, _back.html_, _style.css_ configured. Do not forget that the _/themes__ directory contains different themes with different color variables. To make another theme, adjust _--color(0-4)_.
 
 **Turn off the auto-play in your deck settings to prevent your ears from the harmful damage!**
 
