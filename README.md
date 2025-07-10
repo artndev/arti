@@ -1,4 +1,4 @@
-## Quckstart <img src="./assets/anki.svg" width=20>
+## Quickstart <img src="./assets/anki.svg" width=20>
 
 > If you want to set a prettier background, you can install the Anki addon called [Custom Background Image and Gear Icon](https://ankiweb.net/shared/info/1210908941).
 
