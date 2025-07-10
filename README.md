@@ -1,8 +1,8 @@
-## Dependencies <img src="./assets/anki.svg" width=20>
+## Dependencies
 
 Download [Anki](https://apps.ankiweb.net/) to apply Arti.
 
-## Quickstart <img src="./assets/anki.svg" width=20>
+## Quickstart
 
 - Navigate to the releases tab where you need to download [the latest release](https://github.com/artndev/arti/releases/latest).
 - Unarchive the content of the downloaded zip file into a folder.
@@ -17,11 +17,11 @@ After those preparations, you are ready to make a Basic Anki template using pres
 
 <img src="./assets/auto-play.png" />
 
-## Fields <img src="./assets/anki.svg" width=20>
+## Fields
 
 <img src="./assets/fields.png" />
 
-## Examples <img src="./assets/anki.svg" width=20>
+## Examples
 
 ### Front (PC)
 
