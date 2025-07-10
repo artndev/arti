@@ -1,4 +1,4 @@
-## <img src="./assets/anki.svg" width=50> Installation Guide
+## <img src="./assets/anki.svg" width=10> Installation Guide
 
 \* If you want prettier background, you can install the Anki addon called [1210908941](https://ankiweb.net/shared/info/1210908941). It is used to change the background with a custom image.
 
