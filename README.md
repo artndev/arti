@@ -1,3 +1,7 @@
+## Dependencies <img src="./assets/anki.svg" width=20>
+
+Download [Anki](https://apps.ankiweb.net/) to apply Arti.
+
 ## Quickstart <img src="./assets/anki.svg" width=20>
 
 > If you want to set a prettier background, you can install the Anki addon called [Custom Background Image and Gear Icon](https://ankiweb.net/shared/info/1210908941).
